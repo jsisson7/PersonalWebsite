@@ -1,0 +1,57 @@
+html { 
+    background: url(backgrounds/Website.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .title {
+    text-align: center;
+    top: 15px;
+    left: 40%;
+    color: #e4433e;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.bio {
+    font-size: 25px;
+    color: #e4433e;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.projectheading {
+    font-size: 40px;
+    color: #fbdcc4;
+    border: #fbdcc4 2px solid;
+    padding: 5px;
+    margin: 16% 25% 5px 25%;
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    margin: 5px 25% 10px 25%;
+}
+
+.container > div {
+    flex: 1;
+    color: #fbdcc4;
+    border: #fbdcc4 solid 2px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.projecttitle {
+    font-size: 25px;
+    text-align: center;
+    color: #fbdcc4;
+}
+.projectlink {
+    color: #f8ac89;
+}

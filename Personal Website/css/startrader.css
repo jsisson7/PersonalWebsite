@@ -1,0 +1,57 @@
+html { 
+    background: url(backgrounds/stars.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .title {
+      text-align: center;
+      color: #fff;
+      font-size: 120px;
+      margin: 10px auto 10px auto;
+  }
+
+  .subtitle {
+      text-align: center;
+      color: #fff;
+      font-size: 65px;
+      margin: 10px auto;
+  }
+
+  .container {
+      display: flex;
+  }
+
+  .highlight {
+      flex: 1;
+      color: #fff;
+      font-size: 25px;
+      margin: 3%
+  }
+
+  .highlighttitle {
+      text-align: center;
+      color: #fff;
+      font-size: 45px;
+  }
+
+  .homeOut {
+      border-radius: 25px;
+      color: black;
+      background-color: white;
+      width: 100px;
+      font-size: 30px;
+      text-decoration: none;
+  }
+
+  .homeInner {
+      background-color: white;
+      text-align: center;
+      width: 100px;
+      font-size: 30px;
+      border-radius: 25px;
+      text-decoration: none;
+
+  }
